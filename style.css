@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
 @import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
 
 :root{
@@ -20,6 +21,10 @@ img{
 
 a{
     text-decoration: none;
+}
+
+p{
+  color: #fff;
 }
 
 body{
@@ -325,16 +330,19 @@ footer .img1, .img2, .img3{
 footer .footer-img1{
   max-width: 100px;
   border-radius: 50%;
+  padding: 5px;
 }
 
 footer .footer-img2{
   max-width: 100px;
   border-radius: 50%;
+  padding: 5px;
 }
 
 footer .footer-img3{
   max-width: 100px;
   border-radius: 50%;
+  padding: 5px;
 }
 
 footer .footer-img1:hover{
@@ -403,6 +411,9 @@ footer .name{
 footer .name p{
   color: #fff;
   margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: playpen sans;
 }
 
 footer .socials-links{
@@ -411,7 +422,6 @@ footer .socials-links{
   align-items: center;
   justify-content: center;
 }
-
 
 footer a{
   margin: 0 10px;
