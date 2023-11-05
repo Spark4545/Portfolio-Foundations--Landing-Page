@@ -25,7 +25,7 @@ link3.addEventListener('click', () => {
 });
 
 link5.addEventListener('click', () => {
-  scroolToElement("#login");
+  scroolToElement("#inspector");
 });
 
 document.getElementById('img1').addEventListener('click', function() {
